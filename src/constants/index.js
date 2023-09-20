@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: '3D Artist',
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: 'Martial Artist',
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Physical Marketer',
     icon: creator,
   },
 ];
@@ -73,7 +73,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
+    name: 'Zbrush',
     icon: typescript,
   },
   {
@@ -81,7 +81,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: 'Photoshop',
     icon: redux,
   },
   {
@@ -116,11 +116,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
+    title: 'Media Analyst',
     company_name: 'Starbucks',
     icon: starbucks,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'Sept 2011 - April 2012',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -129,11 +129,11 @@ const experiences = [
     ],
   },
   {
-    title: 'React Native Developer',
+    title: 'Groundskeeper',
     company_name: 'Tesla',
     icon: tesla,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Jun 2013 - June 2014',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -142,11 +142,11 @@ const experiences = [
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
+    title: 'Graphic Artist',
+    company_name: 'Baron Technology Inc.',
     icon: shopify,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'June 2014 - March 2020',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -155,11 +155,11 @@ const experiences = [
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
+    title: 'Physical Marketer',
+    company_name: 'Ground Control Marketing',
     icon: meta,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Aug 2022 - Present',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
