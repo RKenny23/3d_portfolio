@@ -7,14 +7,14 @@ import {
   typescript,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
+  // reactjs,
+  // redux,
+  // tailwind,
+  // nodejs,
+  // mongodb,
+  // git,
+  // figma,
+  // docker,
   meta,
   starbucks,
   tesla,
@@ -22,7 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  // threejs,
 } from '../assets';
 
 export const navLinks = [
@@ -76,48 +76,48 @@ const technologies = [
     name: 'Zbrush',
     icon: typescript,
   },
-  {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  {
-    name: 'Photoshop',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'React JS',
+  //   icon: reactjs,
+  // },
+  // {
+  //   name: 'Adobe Photoshop',
+  //   icon: redux,
+  // },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: 'Node JS',
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: 'MongoDB',
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: 'Three JS',
+  //   icon: threejs,
+  // },
+  // {
+  //   name: 'git',
+  //   icon: git,
+  // },
+  // {
+  //   name: 'Adobe Illustrator',
+  //   icon: figma,
+  // },
+  // {
+  //   name: 'Blender',
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
     title: 'Media Analyst',
-    company_name: 'Starbucks',
+    company_name: 'Champlain College - Emergent Media Center',
     icon: starbucks,
     iconBg: '#383E56',
     date: 'Sept 2011 - April 2012',
@@ -130,7 +130,7 @@ const experiences = [
   },
   {
     title: 'Groundskeeper',
-    company_name: 'Tesla',
+    company_name: 'Aspetuck Valley Country Club',
     icon: tesla,
     iconBg: '#E6DEDD',
     date: 'Jun 2013 - June 2014',
