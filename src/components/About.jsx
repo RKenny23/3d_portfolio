@@ -43,13 +43,13 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I&apos;m a skilled artist with experience in sculpture and engraving,
-        and expertise in marketing and web development. I&apos;m a quick learner
-        and collaborate closely with clients to create sustainable soutions that
-        solve real-world problems. Let&apos;s work together to bring your ideas
-        to life! I am focused on speed and creativity.
+        Focused on speed and creativity, I&apos;m a skilled artist with
+        experience in sculpture, engraving, digital art, marketing and web
+        development. I&apos;m a quick learner and collaborate closely with
+        clients to create soutions that solve real-world problems. Let&apos;s
+        work together to bring your ideas to life!
       </motion.p>
-      <div className="mt-20  flex flex-wrap gap-10">
+      <div className="mt-20  flex flex-wrap justify-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
