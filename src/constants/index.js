@@ -15,14 +15,19 @@ import {
   // git,
   // figma,
   // docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  // meta,
+  // starbucks,
+  // tesla,
+  college,
+  aspetuck,
+  baron,
+  ground,
+  // shopify,
+  roboto,
   jobit,
   tripguide,
   // threejs,
+  chirp,
 } from '../assets';
 
 export const navLinks = [
@@ -118,7 +123,7 @@ const experiences = [
   {
     title: 'Media Analyst',
     company_name: 'Champlain College - Emergent Media Center',
-    icon: starbucks,
+    icon: college,
     iconBg: '#383E56',
     date: 'Sept 2011 - April 2012',
     points: [
@@ -131,7 +136,7 @@ const experiences = [
   {
     title: 'Groundskeeper',
     company_name: 'Aspetuck Valley Country Club',
-    icon: tesla,
+    icon: aspetuck,
     iconBg: '#E6DEDD',
     date: 'Jun 2013 - June 2014',
     points: [
@@ -144,7 +149,7 @@ const experiences = [
   {
     title: 'Graphic Artist',
     company_name: 'Baron Technology Inc.',
-    icon: shopify,
+    icon: baron,
     iconBg: '#383E56',
     date: 'June 2014 - March 2020',
     points: [
@@ -157,7 +162,7 @@ const experiences = [
   {
     title: 'Physical Marketer',
     company_name: 'Ground Control Marketing',
-    icon: meta,
+    icon: ground,
     iconBg: '#E6DEDD',
     date: 'Aug 2022 - Present',
     points: [
@@ -198,25 +203,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Roboto BJJ',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Website of the premier destination for Brazilian Jiu-Jitsu enthusiasts of all ages and skill levels, offering comprehensive training, resources, and a dedicated community.',
     tags: [
       {
-        name: 'react',
+        name: 'html',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'css',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'javascript',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: roboto,
+    source_code_link: 'https://github.com/RKenny23/bjj-site/',
+  },
+  {
+    name: 'Chirp',
+    description:
+      'Web-based platform offering real-time Twitter analytics on engagement, sentiment, and trends, allowing businesses to enhance their online presence.',
+    tags: [
+      {
+        name: 'html',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'javascript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: chirp,
+    source_code_link: 'https://github.com/RKenny23/chirp-landing-page',
   },
   {
     name: 'Job IT',

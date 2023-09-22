@@ -6,7 +6,7 @@ import {
   Feedbacks,
   Hero,
   Navbar,
-  Tech,
+  // Tech,
   Works,
   StarsCanvas,
 } from './components';
