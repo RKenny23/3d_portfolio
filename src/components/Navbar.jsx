@@ -6,19 +6,23 @@ import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
 const Navbar = () => {
+  // manages the active navigation link
   const [active, setActive] = useState('');
+  // toggles the mobile menu
   const [toggle, setToggle] = useState(false);
+
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+        {/* Logo and site title linking to homepage */}
         <Link
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
-            setActive('');
-            window.scrollTo(0, 0);
+            setActive(''); // Reset the active link state
+            window.scrollTo(0, 0); // Scroll to the top of the page
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
@@ -26,6 +30,8 @@ const Navbar = () => {
             Ryan Kenny
           </p>
         </Link>
+
+        {/* Desktop navigation links */}
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((Link) => (
             <li
@@ -39,6 +45,8 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        {/* Mobile navigation (hamburger menu and dropdown) */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -47,6 +55,7 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
+          {/* Dropdown menu for mobile */}
           <div
             className={`${
               !toggle ? 'hidden' : 'flex'
@@ -64,7 +73,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`${nav.id}`}>{nav.title}</a>
+                  <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>
