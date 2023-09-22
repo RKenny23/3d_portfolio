@@ -122,10 +122,10 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Sept 2011 - April 2012',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Working on a team brainstorming potential projects.',
+      'Collaborating with cross-functional teams to create high-quality products.',
+      'Researching creative applications of the Microsoft Kinect.',
+      'Participating in art reviews and providing constructive feedback to other artists.',
     ],
   },
   {
@@ -135,10 +135,10 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'Jun 2013 - June 2014',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Maintaining golf course.',
+      'Operating heavy machinery with precision.',
+      'Mowing tees, greens, collars, approaches.',
+      'Seeding, fertilizing, planting, trimming.',
     ],
   },
   {
@@ -148,10 +148,10 @@ const experiences = [
     iconBg: '#383E56',
     date: 'June 2014 - March 2020',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Designing new scrollwork and artwork.',
+      'Painting finely detailed rifle stocks, handguards, pistol grips.',
+      'Polishing and preparing designs for laser.',
+      'Setting up metal, glass, and wood parts to be laser engraved.',
     ],
   },
   {
@@ -161,10 +161,10 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'Aug 2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Traveling efficiently to residences across the state.',
+      'Delivering marketing materials.',
+      'Engaging with customers about their internet service.',
+      'Reporting numbers accurately.',
     ],
   },
 ];
@@ -172,7 +172,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+      'I thought it was impossible to make a website as beautiful as our product, but Ryan proved me wrong.',
     name: 'Sara Lee',
     designation: 'CFO',
     company: 'Acme Co',
@@ -180,7 +180,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Ryan does.",
     name: 'Chris Brown',
     designation: 'COO',
     company: 'DEF Corp',
@@ -188,7 +188,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Ryan optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: 'Lisa Wang',
     designation: 'CTO',
     company: '456 Enterprises',
