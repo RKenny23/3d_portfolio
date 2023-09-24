@@ -27,7 +27,7 @@ import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 import college from './company/college.png';
 import aspetuck from './company/aspetuck.png';
-import baron from './company/baron.jpg';
+import baron from './company/baron.png';
 import ground from './company/ground.png';
 
 import carrent from './carrent.png';
