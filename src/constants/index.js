@@ -155,7 +155,7 @@ const experiences = [
     date: 'June 2014 - March 2020',
     points: [
       'Designing new scrollwork and artwork.',
-      'Painting finely detailed rifle stocks, handguards, pistol grips.',
+      'Painting finely detailed rifle stocks, handguards, and pistol grips.',
       'Polishing and preparing designs for laser.',
       'Setting up metal, glass, and wood parts to be laser engraved.',
     ],

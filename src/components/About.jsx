@@ -44,10 +44,11 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Focused on speed and creativity, I&apos;m a skilled artist with
-        experience in sculpture, engraving, digital art, marketing and web
+        experience in sculpture, engraving, digital art, marketing, and web
         development. I&apos;m a quick learner and collaborate closely with
-        clients to create soutions that solve real-world problems. Let&apos;s
-        work together to bring your ideas to life!
+        clients to create soutions that solve real-world problems.&nbsp;
+        <br className="sm:block hidden" />
+        Let&apos;s work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20  flex flex-wrap justify-center gap-10">
         {services.map((service, index) => (
