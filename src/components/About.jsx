@@ -46,7 +46,7 @@ const About = () => {
         Focused on speed and creativity, I&apos;m a skilled artist with
         experience in sculpture, engraving, digital art, marketing, and web
         development. I&apos;m a quick learner and collaborate closely with
-        clients to create soutions that solve real-world problems.&nbsp;
+        clients to create solutions that solve real-world problems.&nbsp;
         <br className="sm:block hidden" />
         Let&apos;s work together to bring your ideas to life!
       </motion.p>
